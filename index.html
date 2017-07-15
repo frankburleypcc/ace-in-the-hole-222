@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/style.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <!--Fonts-->
@@ -22,7 +22,7 @@
     <header>
         <h1>Ace in the Hole</h1>
         
-        <nav>
+        <!--<nav>
            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses</a></li>
@@ -30,8 +30,24 @@
                 <li><a href="#">Register</a></li>
                 <li><a href="#">Contact</a></li>
            </ul>
+        </nav>-->
+       <!-- code pen hamburger-->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+
+        <nav>
+        <div class="menu">
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#courses"><li>Courses</li></a>
+            <a href="#"><li>FAQ</li></a>
+            <a href="#"><li>Register</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </div> 
         </nav>
     </header>
+    
     
 <main>
     <section>
@@ -47,7 +63,7 @@
 
  </p>
     </section>
-    <section>
+    <section id="courses">
         <h2>Courses</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
@@ -89,7 +105,7 @@
 
 </p>
     </section>
-    <section>
+    <section id="contact">
         <h2>Contact Form</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -104,12 +120,28 @@
 
     <footer>
         <p>Copyright</p>
-        <ul>
-            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-            </li>
-            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-            </li>
-        </ul>
+        
+       
+        
     </footer>
+    
+    
+    <script>
+        $( ".cross" ).hide();
+        $( ".menu" ).hide();
+        $( ".hamburger" ).click(function() {
+        $( ".menu" ).slideToggle( "slow", function() {
+        $( ".hamburger" ).hide();
+        $( ".cross" ).show();
+        });
+        });
+
+        $( ".cross" ).click(function() {
+        $( ".menu" ).slideToggle( "slow", function() {
+        $( ".cross" ).hide();
+        $( ".hamburger" ).show();
+        });
+        });
+    </script>
 </body>
 </html>
