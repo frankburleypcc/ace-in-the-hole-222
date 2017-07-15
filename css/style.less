@@ -1,10 +1,21 @@
 /*style.less*/
 
+/*color palette*/
 @white: #ffffff;
+@black: #000000;
 @red:  rgb(255,0,0);
 
+/*font attributes*/
+@baseFontSize: 16px;
+
+header {
+    background-color: @black;
+    h1{
+        color: @white;
+    }
+}
 nav {
-    background-color: #000000;
+    background-color: @black;
     ul {
         text-align: center;
     }
@@ -15,15 +26,32 @@ nav {
     }
 }
 main {
-    background-color: aqua;
-    h1 {
-        background-color: beige;
+    padding: 7px;
+}
+section {
+    padding: 18px;
+    h2 {
+        padding-bottom: 7px;
+    }
+    h3 {
+        padding: 12px 0 12px 0;
+    }
+   
+    
+    li {
+        padding: 8px;
+        
     }
 }
+
 footer {
     background-color: @red;
     height: 20px;
     p {
-        color: aqua;
+        color: @black;
     }
 }
+
+/*style for hamburger menu*/
+
+/*end of hamburger menu style*/

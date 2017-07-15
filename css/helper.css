@@ -28,3 +28,6 @@ a {
         /* Printed versions of the page now add the URL after the hyperlink. */
     }  
 }
+/*ol, ul {
+	list-style: disc;
+}*/
