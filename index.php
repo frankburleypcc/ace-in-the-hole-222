@@ -34,36 +34,36 @@
        <!-- code pen hamburger-->
         <button class="hamburger">&#9776;</button>
         <button class="cross">&#735;</button>
+        
+        <?php include 'includes/nav.inc.html.php'; ?>
 
-        <nav>
-        <div class="menu">
-          <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#courses"><li>Courses</li></a>
-            <a href="#"><li>FAQ</li></a>
-            <a href="#"><li>Register</li></a>
-            <a href="#contact"><li>Contact</li></a>
-          </ul>
-        </div> 
-        </nav>
+        
+       
     </header>
     
     
 <main>
-    <section>
+     <img src="images/hero-placeholder.png">
+    
+    <section class="col span_9_of_12">
         <h2>About the Event</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
  </p>
     </section>
     
-    <section>
+    <section class="col span_9_of_12">
         <h2>What to Bring?</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
  </p>
     </section>
-    <section id="courses">
+    <aside class="col span_3_of_12" id="sidebar">
+    <h3>Social Media</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. </p>
+    
+</aside>
+    <section class="col span_9_of_12" id="courses">
         <h2>Courses</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
@@ -86,7 +86,7 @@
 
  </p>
     </section>
-    <section>
+    <section class="col span_9_of_12">
         <h2>FAQ</h2>
         <dl>
           <dt>Lorem ipsum dolor sit amet</dt>
@@ -99,20 +99,22 @@
           <dd>- Lorem ipsum dolor sit amet</dd>
         </dl>
     </section>
-    <section>
+    <section class="col span_9_of_12">
         <h2>Registration Form</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim..
 
 </p>
     </section>
-    <section id="contact">
+    <section class="col span_9_of_12" id="contact">
         <h2>Contact Form</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </p>
     </section>
+
+
     
-        
+       
     
 
 </main>
@@ -120,6 +122,10 @@
 
     <footer>
         <p>Copyright</p>
+        <ul>
+            <li>sm</li>
+            <li>sm</li>
+        </ul>
         
        
         

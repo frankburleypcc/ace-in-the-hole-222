@@ -9,11 +9,11 @@
 @baseFontSize: 16px;
 
 body {
-    font-size: 16px;
+    font-size: @baseFontSize;
 }
 header {
     background-color: @black;
-    height: 53px;
+    height: 55px;
     h1{
         color: @white;
         padding: 12px;
@@ -21,6 +21,7 @@ header {
 }
 nav {
     background-color: @black;
+    z-index: 3;
     ul {
         text-align: center;
     }
@@ -33,8 +34,11 @@ nav {
 main {
     padding: 7px;
 
-        line-height: 15.5em;
+        line-height: 1.5em;
     
+}
+img {
+    display: none;
 }
 section {
     padding: 18px;
@@ -52,14 +56,26 @@ section {
     }
     
 }
+aside {
+    display: none;
+}
 
 footer {
     background-color: @red;
-    height: 20px;
+    padding: 2.4em;
+    
     p {
         color: @black;
-    }
+        float: left;
+      }
     ul {
+        li {
+            float: right;
+            display: inline-block;
+            padding: 12px;
+        }
+    }
+    /*ul { 
         text-align: center;
         float: right;
         li {
@@ -77,9 +93,13 @@ footer {
                 margin-right: 10px;
                 padding-top: 15%;
             }
+           }
+        }*/
 }
-    }
 
+#sidebar {
+    display: none;
+}
 /*style for hamburger menu*/
 /*body{
   font-family: 'Noto Sans', sans-serif;
@@ -90,9 +110,7 @@ footer {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }*/
-header{
-	
-}
+
 .hamburger{
   background:none;
   position:absolute;
@@ -138,8 +156,22 @@ header{
   margin-top:5px; 
   margin:0 auto;
 }
-header{}
+/*header{}
 span{padding-left:20px;}
-a{color:#336699;}
+a{color:#336699;}*/
 
 /*end of hamburger menu style*/
+
+// TABLET STYLESHEET
+@media screen and (min-width: 768px) {
+    img {
+        display: block;
+        width: 100%;
+        margin: -7;
+    }
+    aside {
+        display: block;
+        float: right;
+    }    
+    
+}
