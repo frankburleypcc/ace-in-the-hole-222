@@ -47,8 +47,8 @@ aside {
   display: none;
 }
 footer {
-  background-color: #ff0000;
-  padding: 2.4em;
+  /*background-color: @red;
+    padding: 2.4em;*/
   /*ul { 
         text-align: center;
         float: right;
@@ -71,6 +71,8 @@ footer {
         }*/
 }
 footer p {
+  background-color: #ff0000;
+  padding: 2.4em;
   color: #000000;
   float: left;
 }
@@ -79,9 +81,9 @@ footer ul li {
   display: inline-block;
   padding: 12px;
 }
-#sidebar {
-  display: none;
-}
+/*#sidebar {
+    display: none;
+}*/
 /*style for hamburger menu*/
 /*body{
   font-family: 'Noto Sans', sans-serif;
@@ -185,5 +187,17 @@ a{color:#336699;}*/
   aside {
     display: block;
     float: right;
+  }
+  #courses {
+    display: none;
+  }
+  #faq {
+    display: none;
+  }
+  #registration {
+    display: none;
+  }
+  #contact {
+    display: none;
   }
 }
