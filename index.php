@@ -17,6 +17,7 @@
 <body>
     <header>
         <h1>Ace in the Hole</h1>
+        <p>Weather</p>
         
         <!--<nav>
            <ul>
@@ -44,7 +45,7 @@
     <div class="section group">
     <section class="col span_9_of_12">
         <h2>About the Event</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
         </p>
     </section>
@@ -114,15 +115,8 @@
 
 </main>
     
+<?php include 'includes/footer.inc.html.php'; ?>
 
-<footer>
-    <!--The copyright will use php to generate the current year-->
-    <p>Copyright</p>
-        <ul>
-            <li>sm</li>
-            <li>sm</li>
-        </ul>
-</footer>
     
 <!--This script is for the hamburger menu-->  
 <script>

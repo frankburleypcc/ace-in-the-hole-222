@@ -12,6 +12,12 @@ header {
 header h1 {
   color: #ffffff;
   padding: 12px;
+  padding-top: 18px;
+}
+header p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: -27px;
 }
 nav {
   background-color: #000000;
