@@ -32,15 +32,14 @@ nav {
         text-align: center;
     }
     a {
-        color: white;
+        color: @white;
         text-decoration-line: none;
         
     }
 }
 main {
     padding: 7px;
-
-        line-height: 1.5em;
+    line-height: 1.5em;
     
 }
 img {
@@ -65,11 +64,12 @@ section {
 aside {
     display: none;
 }
+    
 
 footer {
     background-color: @red;
     height: 5.5em;
-   /* padding: 2.4em;*/
+    padding: 2.4em;
    
     
     p {
@@ -78,44 +78,27 @@ footer {
         float: left;
       }
     ul {
-        /*background-color: @red;*/
         li {
             float: right;
             display: inline-block;
             padding: 12px;
             
-                background: @white;
-                color: @black;
-                width: 48px;
-                height: 49px;
-                border-radius: 26px;
-                text-align: center;
-                margin-right: 10px;
-                margin-top: 19px;
-                margin-right: 31px;
-                padding-top: 5%;
+            background: @white;
+            color: @black;
+            width: 48px;
+            height: 49px;
+            border-radius: 26px;
+            text-align: center;
+            margin-right: 10px;
+            margin-top: 19px;
+            margin-right: 31px;
+            padding-top: 5%;
         }
     }
-    /*ul { 
-        text-align: center;
-        float: right;
-        li {
-            list-style-type: none;
-            float: none;
-            display: inline-block;
-            i {
-                float: right;
-                background: @red;
-                color: @black;
-                width: 47px;
-                height: 47px;
-                border-radius: 30px;
-                text-align: center;
-                margin-right: 10px;
-                padding-top: 15%;
-            }
-           }
-        }*/
+ 
+}
+.inlineNav {
+    display: none;
 }
 
 
@@ -185,26 +168,81 @@ a{color:#336699;}*/
 
 // TABLET STYLESHEET
 @media screen and (min-width: 768px) {
-    img {
-        display: block;
-        width: 100%;
-        margin: -7;
-    }
-    aside {
-        display: block;
-        float: right;
-    } 
-    #courses {
+header {
+    button {
         display: none;
     }
-    #faq {
-        display: none;
-    }
-    #registration {
-        display: none;
-    }
-    #contact {
-        display: none;
-    }
+}
     
+img {
+    display: block;
+    width: 100%;
+    margin: -7;
+}
+aside {
+    display: block;
+    float: right;
+    p {
+        background-color: lightgrey;
+        margin-top: 5px;
+    }
+
+} 
+#courses {
+    display: none;
+}
+#faq {
+    display: none;
+}
+#registration {
+    display: none;
+}
+#contact {
+    display: none;
+}
+footer {
+    ul {
+        li {
+            padding-top: 2%;
+        }
+    }
+}
+.inlineNav {
+    display: block;
+    ul {
+       display: inline-flex; 
+       float: right;
+        margin-top: -14px;
+       li {
+          padding-right: 12px;
+        }
+
+       }
+    }
+
+}
+    
+ /*DESKTOP STYLESHEET*/
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 0.4em;
+        ul {
+            
+            li {
+                padding-top: 1%;
+            }
+        }
+    }
+
+.inlineNav {
+    ul {
+        li {
+            padding-right: 22px;
+            a:hover {
+               color: @red;
+        }
+        
+    }
+}
+    }
 }

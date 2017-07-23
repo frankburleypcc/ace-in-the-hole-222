@@ -9,4 +9,16 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div> 
+    
 </nav>
+
+<nav class="inlineNav">
+    
+           <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact</a></li>
+           </ul>
+        </nav>

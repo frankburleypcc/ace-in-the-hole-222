@@ -27,7 +27,7 @@ nav ul {
   text-align: center;
 }
 nav a {
-  color: white;
+  color: #ffffff;
   text-decoration-line: none;
 }
 main {
@@ -55,35 +55,12 @@ aside {
 footer {
   background-color: #ff0000;
   height: 5.5em;
-  /* padding: 2.4em;*/
-  /*ul { 
-        text-align: center;
-        float: right;
-        li {
-            list-style-type: none;
-            float: none;
-            display: inline-block;
-            i {
-                float: right;
-                background: @red;
-                color: @black;
-                width: 47px;
-                height: 47px;
-                border-radius: 30px;
-                text-align: center;
-                margin-right: 10px;
-                padding-top: 15%;
-            }
-           }
-        }*/
+  padding: 2.4em;
 }
 footer p {
   padding: 2.4em;
   color: #ffffff;
   float: left;
-}
-footer ul {
-  /*background-color: @red;*/
 }
 footer ul li {
   float: right;
@@ -99,6 +76,9 @@ footer ul li {
   margin-top: 19px;
   margin-right: 31px;
   padding-top: 5%;
+}
+.inlineNav {
+  display: none;
 }
 /*style for hamburger menu*/
 /*body{
@@ -195,6 +175,9 @@ span{padding-left:20px;}
 a{color:#336699;}*/
 /*end of hamburger menu style*/
 @media screen and (min-width: 768px) {
+  header button {
+    display: none;
+  }
   img {
     display: block;
     width: 100%;
@@ -203,6 +186,10 @@ a{color:#336699;}*/
   aside {
     display: block;
     float: right;
+  }
+  aside p {
+    background-color: lightgrey;
+    margin-top: 5px;
   }
   #courses {
     display: none;
@@ -215,5 +202,34 @@ a{color:#336699;}*/
   }
   #contact {
     display: none;
+  }
+  footer ul li {
+    padding-top: 2%;
+  }
+  .inlineNav {
+    display: block;
+  }
+  .inlineNav ul {
+    display: inline-flex;
+    float: right;
+    margin-top: -14px;
+  }
+  .inlineNav ul li {
+    padding-right: 12px;
+  }
+}
+/*DESKTOP STYLESHEET*/
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 0.4em;
+  }
+  footer ul li {
+    padding-top: 1%;
+  }
+  .inlineNav ul li {
+    padding-right: 22px;
+  }
+  .inlineNav ul li a:hover {
+    color: #ff0000;
   }
 }

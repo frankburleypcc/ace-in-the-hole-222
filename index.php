@@ -19,15 +19,7 @@
         <h1>Ace in the Hole</h1>
         <p>Weather</p>
         
-        <!--<nav>
-           <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Contact</a></li>
-           </ul>
-        </nav>-->
+        
        <!-- code pen hamburger-->
         <button class="hamburger">&#9776;</button>
         <button class="cross">&#735;</button>
@@ -54,7 +46,9 @@
     <!--This is the sidebar. It will contain the social media feeds.--> 
     <aside id="sidebar">
         <h3>Social Media</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim.</p>
+        
     </aside>
     </section>
     
