@@ -13,6 +13,7 @@ header h1 {
   color: #ffffff;
   padding: 12px;
   padding-top: 18px;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 header p {
   color: #ffffff;
@@ -42,20 +43,26 @@ section {
 }
 section h2 {
   padding-bottom: 7px;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 section h3 {
   padding: 12px 0 12px 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+section p {
+  font-family: 'Roboto', Arial, sans-serif;
 }
 section li {
   padding: 8px;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 aside {
   display: none;
 }
 footer {
   background-color: #ff0000;
-  height: 5.5em;
-  padding: 2.4em;
+  height: 6.2em;
+  padding: 0.4em;
 }
 footer p {
   padding: 2.4em;
@@ -203,6 +210,10 @@ a{color:#336699;}*/
   #contact {
     display: none;
   }
+  footer {
+    height: 6.2em;
+    padding: 0.4em;
+  }
   footer ul li {
     padding-top: 2%;
   }
@@ -221,6 +232,7 @@ a{color:#336699;}*/
 /*DESKTOP STYLESHEET*/
 @media screen and (min-width: 1024px) {
   footer {
+    height: 6.5em;
     padding: 0.4em;
   }
   footer ul li {
