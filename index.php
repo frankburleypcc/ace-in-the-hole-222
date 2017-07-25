@@ -15,22 +15,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Ace in the Hole</h1>
-        <p>Weather</p>
-        
-        
-       <!-- code pen hamburger-->
-        <button class="hamburger">&#9776;</button>
-        <button class="cross">&#735;</button>
-        
-        <?php include 'includes/nav.inc.html.php'; ?>
-
-        
-       
-    </header>
+    <!--the header contains the logo and the weather api-->
+    <?php include 'includes/header.inc.html.php'; ?>
     
-    
+    <?php include 'includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
     <img src="images/hero-placeholder.png">

@@ -223,7 +223,9 @@ a{color:#336699;}*/
   .inlineNav ul {
     display: inline-flex;
     float: right;
-    margin-top: -14px;
+    /*this was before I moved the nav includes out of nav. keep for now*/
+    /*margin-top: -14px;*/
+    margin-top: -35px;
   }
   .inlineNav ul li {
     padding-right: 12px;
@@ -238,6 +240,7 @@ a{color:#336699;}*/
   footer ul li {
     padding-top: 1%;
   }
+  /*desktop navigation*/
   .inlineNav ul li {
     padding-right: 22px;
   }
