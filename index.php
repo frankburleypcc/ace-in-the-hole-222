@@ -21,10 +21,10 @@
     <?php include 'includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
-    <img src="images/hero-placeholder.png">
+    <img src="images/header%20box_cropped.png">
     <div class="section group">
     <section class="col span_9_of_12">
-        <h2>About the Event</h2>
+        <h2>heading (h2)</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
 
         </p>
@@ -33,7 +33,7 @@
     <section class="col span_3_of_12">
     <!--This is the sidebar. It will contain the social media feeds.--> 
     <aside id="sidebar">
-        <h3>Social Media</h3>
+        <h3>heading (h3)</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim.</p>
         
@@ -41,7 +41,7 @@
     </section>
     
     <section class="col span_9_of_12">
-        <h2>What to Bring?</h2>
+        <h2>heading (h2)</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
         </p>
     </section>
@@ -49,10 +49,10 @@
     
     <div class="section group">
     <section class="col span_9_of_12" id="courses">
-        <h2>Courses</h2>
+        <h2>heading (h2)</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
             </p>
-        <h3>Start Times</h3>
+        <h3>heading (h3)</h3>
           <ul>
               <li>Lorem ipsum dolor sit amet</li>
               <li>Lorem ipsum dolor sit amet</li>
@@ -63,12 +63,12 @@
               <li>Lorem ipsum dolor sit amet</li>
               <li>Lorem ipsum dolor sit amet</li>
         </ul>
-        <h3>Course Details</h3>
+        <h3>heading (h3)</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
             </p>
     </section>
     <section class="col span_9_of_12" id="faq">
-        <h2>FAQ</h2>
+        <h2>heading (h2)</h2>
             <dl>
               <dt>Lorem ipsum dolor sit amet</dt>
               <dd>- Lorem ipsum dolor sit amet</dd>
@@ -81,12 +81,12 @@
             </dl>
     </section>
     <section class="col span_9_of_12" id="registration">
-        <h2>Registration Form</h2>
+        <h2>heading (h2)</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim..
             </p>
     </section>
     <section class="col span_9_of_12" id="contact">
-        <h2>Contact Form</h2>
+        <h2>heading (h2)</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
 </div>

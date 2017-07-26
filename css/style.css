@@ -182,6 +182,9 @@ span{padding-left:20px;}
 a{color:#336699;}*/
 /*end of hamburger menu style*/
 @media screen and (min-width: 768px) {
+  main {
+    padding: 0;
+  }
   header button {
     display: none;
   }
