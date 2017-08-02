@@ -21,7 +21,7 @@
     <?php include 'includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
-    <img src="images/header%20box_cropped.png">
+    <img src="images/header%20box2.png">
     <div class="section group">
     <section class="col span_9_of_12">
         <h2>heading (h2)</h2>
