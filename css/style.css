@@ -52,6 +52,7 @@ section h3 {
 }
 section p {
   font-family: 'Roboto', Arial, sans-serif;
+  padding: 10px;
 }
 section li {
   padding: 8px;
