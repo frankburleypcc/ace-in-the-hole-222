@@ -7,7 +7,7 @@
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
-    <!-- font awesome for the footer social media buttons -->
+    <!-- font awesome for footer social media buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -33,12 +33,27 @@
     <?php include 'includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
-    <img src="images/header%20box2.png">
+    <!--<img src="images/header%20box2.png">-->
     <div class="section group">
     <section class="col span_9_of_12">
-        <h2>About The Event</h2>
-        <p>The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation. There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
-        </p>
+        <h2>Register</h2>
+        <h3>Cost Includes</h3>
+        <ul>
+          <li>Food & Beer</li>
+          <li>Access to the weekendís live entertainment & Fitness Expo</li>
+          <li>Food & Beer</li>
+          <li>Commemorative Finisher medal</li>
+          <li>Accurate Chip Timing for competitive races</li>
+          <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
+          <li>Post-event party & entertainment</li>
+        </ul> 
+        <p>NOTE: Tech shirts guaranteed to pre-registered participants only. 
+
+        <h3>PACKET PICK UP</h3>
+
+        <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+       <!-- this is the registration form-->
+        <?php include 'includes/register.inc.html.php'; ?>
     </section>
     
     <section class="col span_3_of_12">
@@ -50,10 +65,12 @@
         <!--this is the facebook feed-->
        <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline" data-width="323" data-height="250" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
         
+        
+        
     </aside>
     </section>
     
-    <section class="col span_9_of_12">
+    <!--<section class="col span_9_of_12">
         <h2>What To Bring</h2>
         <p>Watch the weather closely.  The show goes on no matter what the weather is doing. </p>
 
@@ -66,7 +83,7 @@
         <p>Run:  You must finish the race with your bib number on the front of you.  Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it.  Others pin it on a singlet that they put on once they finish the swim before they head out for the bike.  Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run.  Use whatever option feels best for you.
         </p>
         <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
-    </section>
+    </section>-->
     </div>
     
     <div class="section group">
@@ -111,8 +128,6 @@
     </section>
     <section class="col span_9_of_12" id="registration">
         <h2>Registration</h2>
-        <!-- this is the registration form-->
-        <?php include 'includes/register.inc.html.php'; ?>
             <p>Cost Includes
 
     Food &amp; Beer 
@@ -131,7 +146,7 @@ All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. 
     </section>
     <section class="col span_9_of_12" id="contact">
         <h2>Contact</h2>
-        <?php include 'includes/contact.inc.html.php'; ?>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
 </div>
 

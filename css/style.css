@@ -45,10 +45,12 @@ section {
 section h2 {
   padding-bottom: 7px;
   font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.4em;
 }
 section h3 {
   padding: 12px 0 12px 0;
   font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.1em;
 }
 section p {
   font-family: 'Roboto', Arial, sans-serif;
@@ -57,6 +59,10 @@ section p {
 section li {
   padding: 8px;
   font-family: 'Roboto', Arial, sans-serif;
+  /*these are for the bullets*/
+  list-style-type: disc;
+  padding-left: 0px;
+  margin-left: 32px;
 }
 aside {
   display: none;
@@ -88,6 +94,47 @@ footer ul li {
 }
 .inlineNav {
   display: none;
+}
+/*style for contact form*/
+form {
+  background-color: lightgrey;
+  font-family: Cinzel, Arial, serif;
+  padding: 10px;
+  padding-top: 35px;
+}
+input,
+textarea {
+  display: block;
+  margin-bottom: 2em;
+  width: 99%;
+}
+label {
+  clear: left;
+  float: left;
+  font-size: .75em;
+  margin-bottom: 1em;
+  padding-right: 10px;
+  /*text-align: right; */
+  width: 150px;
+}
+td {
+  background-color: #ffffff;
+  border: 1px solid #0b344d;
+  color: #363636;
+  font-weight: bold;
+  font-family: Cinzel, Arial, serif;
+  font-size: .95em;
+  padding: .5em;
+  text-align: center;
+}
+th {
+  background-color: #0b344d;
+  color: #ffffff;
+  font-size: 1.15em;
+  font-weight: bold;
+  font-family: Cinzel, Arial, serif;
+  padding: .5em;
+  text-align: center;
 }
 /*style for hamburger menu*/
 /*body{

@@ -54,10 +54,12 @@ section {
     h2 {
         padding-bottom: 7px;
         font-family: @roboto;
+        font-size: 1.4em;
     }
     h3 {
         padding: 12px 0 12px 0;
         font-family: @roboto;
+        font-size: 1.1em;
     }
     p {
         font-family: @roboto;
@@ -68,6 +70,10 @@ section {
     li {
         padding: 8px;
         font-family: @roboto;
+        /*these are for the bullets*/
+        list-style-type: disc;
+        padding-left: 0px;
+        margin-left: 32px;
         
     }
     
@@ -112,6 +118,48 @@ footer {
     display: none;
 }
 
+/*style for contact form*/
+form {
+     background-color: lightgrey;
+     font-family: Cinzel, Arial, serif; 
+     padding: 10px; 
+     padding-top: 35px; 
+}
+input, textarea {
+     display: block; 
+     margin-bottom: 2em;
+     width: 99%;
+}
+
+label {
+     clear: left; 
+     float: left; 
+     font-size: .75em; 
+     margin-bottom: 1em; 
+     padding-right: 10px; 
+     /*text-align: right; */
+     width: 150px; 
+}
+td {
+     background-color: #ffffff; 
+     border: 1px solid #0b344d; 
+     color: #363636; 
+     font-weight: bold; 
+     font-family: Cinzel, Arial, serif; 
+     font-size: .95em; 
+     padding: .5em; 
+     text-align: center; 
+}
+
+th {
+     background-color: #0b344d; 
+     color: #ffffff; 
+     font-size: 1.15em; 
+     font-weight: bold; 
+     font-family: Cinzel, Arial, serif; 
+     padding: .5em; 
+     text-align: center; 
+}
 
 
 /*style for hamburger menu*/
