@@ -13,7 +13,7 @@
           <input type="text" name="myfname" id="myfname" required>
         <label for="mylname">*Last Name:</label>
           <input type="text" name="mylname" id="mylname" required>
-        <label for="myemail">*Email:</label>
+        <!--<label for="myemail">*Email:</label>
           <input type="email" name="myemail" id="myemail" required>
         <label for="myphone">Phone:</label>
           <input type="tel" name="myphone" id="myphone">
@@ -22,6 +22,6 @@
         <label for="mygroup">*Total Participants</label>
           <input type="number" name="mygroup" id="mygroup" min="1" max="8" required>
         <label for="mycomments">*Comments?</label>
-          <textarea name="mycomments" id="mycomments" rows="2" cols="20" required></textarea>
+          <textarea name="mycomments" id="mycomments" rows="2" cols="20" required></textarea>-->
           <input id="mysubmit" type="submit" value="Submit">
     </form>

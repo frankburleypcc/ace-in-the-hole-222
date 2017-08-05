@@ -15,10 +15,10 @@
 <nav class="inlineNav">
     
            <ul>
-                <li><a href="../ace-in-the-hole-222/index.php">Home</a></li>
+                <li><a href="/ace-in-the-hole-222/index.php">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="../ace-in-the-hole-222/register.php">Register</a></li>
-                <li><a href="../ace-in-the-hole-222/contact.php">Contact</a></li>
+                <li><a href="../ace-in-the-hole-222/contact/">Contact</a></li>
            </ul>
         </nav>
