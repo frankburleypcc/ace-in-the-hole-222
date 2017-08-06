@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
     <!-- font awesome for the footer social media buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/helper.css">
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/helper.css">
+    <link rel="stylesheet" href="../css/style.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -28,12 +28,12 @@
     <!--end of facebook script-->
     
     <!--the header contains the logo and the weather api-->
-    <?php include 'includes/header.inc.html.php'; ?>
+    <?php include '../includes/header.inc.html.php'; ?>
     <!--this is the nav for mobile, tablet, and desktop-->
-    <?php include 'includes/nav.inc.html.php'; ?>
+    <?php include '../includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
-    <img src="images/header%20box2.png">
+    <img src="../images/header%20box2.png">
     <div class="section group">
     <section class="col span_9_of_12">
         <h2>About The Event</h2>
@@ -155,7 +155,7 @@ All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. 
 
 </main>
     
-<?php include 'includes/footer.inc.html.php'; ?>
+<?php include '../includes/footer.inc.html.php'; ?>
 
     
 <!--This script is for the hamburger menu-->  
