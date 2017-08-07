@@ -12,7 +12,9 @@ if (isset($_POST['event'])) {
     $persQuestion = $_POST['myQuestion'];
 
 //this checks if there has been a connection to the database
-    try {
+    include ('../includes/db.inc.php');
+    
+    /*try {
         $pdo = new PDO('mysql:host=localhost;dbname=ace_in_the_hole', 'music_user', 'mypassword');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $pdo->exec('SET NAMES "utf8"');
@@ -21,7 +23,9 @@ if (isset($_POST['event'])) {
         $error = 'Unable to connect to the database server.';
         include 'error.html.php';
         exit();
-    }
+    }*/
+    
+    
 //this inserts the data into the table "contact" of the //"ace_in_the_hole" DB
     try {
         $sql = 'INSERT INTO contact SET
