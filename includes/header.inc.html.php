@@ -1,6 +1,6 @@
 <header>
     <h1>Ace in the Hole</h1>
-    <p>Weather</p>
+    <p><span id="descID"></span><span id="tempID"></span>&#8457;</p>
 
     <!-- code pen hamburger-->
     <button class="hamburger">&#9776;</button>

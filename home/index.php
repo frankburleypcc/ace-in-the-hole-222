@@ -7,6 +7,7 @@
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <!-- font awesome for the footer social media buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/reset.css">
@@ -126,7 +127,7 @@
     <section class="col span_9_of_12" id="registration">
         <h2>Registration</h2>
         <!-- this is the registration form-->
-        <?php include 'includes/register.inc.html.php'; ?>
+        <?php include '../includes/register.inc.html.php'; ?>
             <p>Cost Includes
 
     Food &amp; Beer 
@@ -145,7 +146,7 @@ All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. 
     </section>
     <section class="col span_9_of_12" id="contact">
         <h2>Contact</h2>
-        <?php include 'includes/contact.inc.html.php'; ?>
+        <?php include '../includes/contact.inc.html.php'; ?>
     </section>
 </div>
 
@@ -175,6 +176,36 @@ All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. 
     $( ".hamburger" ).show();
     });
     });
+    
+       /*Weather API goes here*/
+        /*appID=(number entered)is the key and units=imperial pulls Farenheit*/
+        var apiCall = 'http://api.openweathermap.org/data/2.5/weather?q={Portland}&appid=f69d435a860da7aa539496652d1351ce&units=imperial';
+        
+        $.getJSON(apiCall, weatherCallback);
+    /*this function creates calls on the API to pull the description of the weather
+    and the temperature. */
+    function weatherCallback(weatherData) {
+        /*this pulls text for the description*/
+        var description = weatherData.weather[0].description;
+        /*this pulls the fahrenheit number*/
+        var temp = weatherData.main.temp;
+        /*this rounds the fahrenheit number*/
+        var roundNumber = Math.round(temp);
+
+        /*creates a variable to pull icons*/
+        var iconCode = weatherData.weather[0].icon;
+        /*constructs a url which points to the icon*/
+        var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+
+        /*console.log(weatherData, weatherData.name);*/
+        console.log("IT WORKS!!");
+
+        /*These attach the variables to the ID in the sites header*/
+        //$('#descID').append(description);
+        $('#tempID').append(roundNumber);
+        //$("#icon").append("<img src='" + iconUrl + "'>");
+    }
+        /*end of weather*/
 </script>
 </body>
 </html>
