@@ -7,6 +7,7 @@
  */
 if (isset($_POST['event'])) {
     $eventName = $_POST['event'];
+    $eventPosition = $_POST['position'];
     $persName = $_POST['myName'];
     $persEmail = $_POST['myEmail'];
     $persQuestion = $_POST['myQuestion'];
@@ -30,11 +31,13 @@ if (isset($_POST['event'])) {
     try {
         $sql = 'INSERT INTO contact SET
         event = :event,
+        position = :position,
         name = :name,
         email = :email,
         text = :text';
         $s = $pdo->prepare($sql);
         $s->bindValue(':event', $eventName);
+        $s->bindValue(':position', $eventPosition);
         $s->bindValue(':name', $persName);
         $s->bindValue(':email', $persEmail);
         $s->bindValue(':text', $persQuestion);

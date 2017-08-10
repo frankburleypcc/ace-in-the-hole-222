@@ -11,10 +11,12 @@
         <main>
             <h2>Success!</h2>
             <p>You successfully registered your info to the database. See you at the event!</p>
-            <p>Click <a href="http://frankburleyweb.com/ace-in-the-hole-222/">here</a> to go back to the home page.</p>
+            <p>Click <a href="http://frankburleyweb.com/ace-in-the-hole-222/home/">here</a> to go back to the home page.</p>
             <p>
-                Event Name: <?php echo htmlspecialchars($eventName, ENT_QUOTES, 'UTF-8'); ?><br>
+                Event Name Saturday: <?php echo htmlspecialchars($eventName, ENT_QUOTES, 'UTF-8'); ?><br>
+                Event Name Sunday: <?php echo htmlspecialchars($eventSunName, ENT_QUOTES, 'UTF-8'); ?><br>
                 Your Name: <?php echo htmlspecialchars($persName, ENT_QUOTES, 'UTF-8'); ?><br>
+                Your Name: <?php echo htmlspecialchars($persNumber, ENT_QUOTES, 'UTF-8'); ?><br>
                 
             </p>
         </main>

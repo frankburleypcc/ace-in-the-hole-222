@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ace In The Hole</title>
+    <title>Ace In The Hole - Contact</title>
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">

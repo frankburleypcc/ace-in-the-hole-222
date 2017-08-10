@@ -63,7 +63,7 @@
  
         <a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         <!--this is the facebook feed-->
-       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline" data-width="323" data-height="250" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
+       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline"  data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
         
     </aside>
     </section>
@@ -128,20 +128,20 @@
         <h2>Registration</h2>
         <!-- this is the registration form-->
         <?php include '../includes/register.inc.html.php'; ?>
+        
             <p>Cost Includes
+                Food &amp; Beer 
+                Access to the weekendís live entertainment & Fitness Expo
+                Commemorative Finisher medal
+                Accurate Chip Timing for competitive races
+                Ace in the Hole MultiSport Weekend Tech Shirt
+                Post-event party &amp; entertainment
 
-    Food &amp; Beer 
-    Access to the weekendís live entertainment & Fitness Expo
-    Commemorative Finisher medal
-    Accurate Chip Timing for competitive races
-    Ace in the Hole MultiSport Weekend Tech Shirt
-    Post-event party &amp; entertainment
+                NOTE: Tech shirts guaranteed to pre-registered participants only. 
 
-NOTE: Tech shirts guaranteed to pre-registered participants only. 
+                PACKET PICK UP
 
-PACKET PICK UP
-
-All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up. 
+                All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up. 
             </p>
     </section>
     <section class="col span_9_of_12" id="contact">
