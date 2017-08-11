@@ -17,6 +17,8 @@
                 Your Position: <?php echo htmlspecialchars($eventPosition, ENT_QUOTES, 'UTF-8'); ?><br>
                 Your Name: <?php echo htmlspecialchars($persName, ENT_QUOTES, 'UTF-8'); ?><br>
                 Your Email: <?php echo htmlspecialchars($persEmail, ENT_QUOTES, 'UTF-8'); ?><br>
+                Your Phone: <?php echo htmlspecialchars($persNumber, ENT_QUOTES, 'UTF-8'); ?><br>
+                
                 Your Comment: <?php echo htmlspecialchars($persQuestion, ENT_QUOTES, 'UTF-8'); ?><br>
             </p>
         </main>

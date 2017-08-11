@@ -231,6 +231,37 @@ th {
 span{padding-left:20px;}
 a{color:#336699;}*/
 /*end of hamburger menu style*/
+/*style for image slider on homepage*/
+.container {
+  /*background-color: @black;*/
+  background-image: url(../images/runstart.jpg);
+}
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin-left: 348px;
+}
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+/* helper css, since we don't have images */
+/*.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}*/
+/*end of image slider style*/
 @media screen and (min-width: 768px) {
   main {
     padding: 0;

@@ -16,7 +16,8 @@
                 Event Name Saturday: <?php echo htmlspecialchars($eventName, ENT_QUOTES, 'UTF-8'); ?><br>
                 Event Name Sunday: <?php echo htmlspecialchars($eventSunName, ENT_QUOTES, 'UTF-8'); ?><br>
                 Your Name: <?php echo htmlspecialchars($persName, ENT_QUOTES, 'UTF-8'); ?><br>
-                Your Name: <?php echo htmlspecialchars($persNumber, ENT_QUOTES, 'UTF-8'); ?><br>
+                Your Phone: <?php echo htmlspecialchars($persNumber, ENT_QUOTES, 'UTF-8'); ?><br>
+                Your Age: <?php echo htmlspecialchars($persAge, ENT_QUOTES, 'UTF-8'); ?><br>
                 
             </p>
         </main>

@@ -34,7 +34,33 @@
     <?php include '../includes/nav.inc.html.php'; ?>
 <main>
     <!--this is a placeholder image for the slideshow gallery-->
-    <img src="../images/header%20box2.png">
+    <!--<img src="../images/header%20box2.png">-->
+    
+    <div class="container">
+            
+
+            <div id="slider">
+                <ul class="slides">
+                    <li class="slide slide1"><img src="../images/slider1.jpeg"></li>
+                    <li class="slide slide2"><img src="../images/slider2.jpeg"></li>
+                    <li class="slide slide3"><img src="../images/slider3.jpeg"></li>
+                    <li class="slide slide1"><img src="../images/slider4.jpg"></li>
+                    <li class="slide slide2"><img src="../images/slider5.jpg"></li>
+                    <li class="slide slide3"><img src="../images/slider6.jpg"></li>
+                    <li class="slide slide1"><img src="../images/slider1.jpeg"></li>
+                    <!--<li class="slide slide4">slide4</li>
+                    <li class="slide slide5">slide5</li>
+                    <li class="slide slide1">slide1</li>-->
+                </ul>
+            </div>
+
+        </div>
+    
+    
+    
+    
+    
+    <!--end of slideshow gallery-->
     <div class="section group">
     <section class="col span_9_of_12">
         <h2>About The Event</h2>
@@ -206,6 +232,47 @@
         //$("#icon").append("<img src='" + iconUrl + "'>");
     }
         /*end of weather*/
+    /*this script is for the image slider*/
+    'use strict';
+
+$(function() {
+
+    //settings for slider
+    var width = 720;
+    var animationSpeed = 2000;
+    var pause = 5000;
+    var currentSlide = 1;
+
+    //cache DOM elements
+    var $slider = $('#slider');
+    var $slideContainer = $('.slides', $slider);
+    var $slides = $('.slide', $slider);
+
+    var interval;
+
+    function startSlider() {
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
+                if (++currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });
+        }, pause);
+    }
+    function pauseSlider() {
+        clearInterval(interval);
+    }
+
+    $slideContainer
+        .on('mouseenter', pauseSlider)
+        .on('mouseleave', startSlider);
+
+    startSlider();
+
+
+});
+/*end of image slider script*/
 </script>
 </body>
 </html>

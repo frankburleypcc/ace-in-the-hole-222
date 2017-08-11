@@ -21,6 +21,9 @@
       <input type="text" name="myName" id="myName">
     <label for="myEmail">E-mail:</label>
       <input type="text" name="myEmail" id="myEmail">
+    <label for="myNumber">*Phone:</label>
+        <input type="tel" name="myNumber" id="myNumber">
+    
     <label for="myQuestion">Question or Comment:</label>
       <textarea form="inquiryForm" rows="10" cols="50" name="myQuestion" id="myQuestion"></textarea>
     <input id="mySubmit" type="submit" value="Submit">

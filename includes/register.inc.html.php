@@ -20,6 +20,8 @@
         <input type="text" name="myName" id="myName">
         <label for="myNumber">*Phone:</label>
         <input type="tel" name="myNumber" id="myNumber">
+         <label for="myAge">*Age</label>
+          <input type="text" name="age" id="age" min="18" max="99" required>
        
         <input id="mysubmit" type="submit" value="Submit">
     </form>

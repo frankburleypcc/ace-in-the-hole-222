@@ -10,6 +10,7 @@ if (isset($_POST['event'])) {
     $eventSunName = $_POST['eventSun'];
     $persName = $_POST['myName'];
     $persNumber = $_POST['myNumber'];
+     $persAge = $_POST['age'];
     //$persEmail = $_POST['myEmail'];
     //$persQuestion = $_POST['myQuestion'];
 
@@ -34,12 +35,14 @@ if (isset($_POST['event'])) {
         event = :event,
         eventSun = :eventSun,
         myNumber = :myNumber,
+        age = :age,
         name = :name';
         $s = $pdo->prepare($sql);
         $s->bindValue(':event', $eventName);
         $s->bindValue(':eventSun', $eventSunName);
         $s->bindValue(':name', $persName);
         $s->bindValue(':myNumber', $persNumber);
+        $s->bindValue(':age', $persAge);
         //$s->bindValue(':email', $persEmail);
         //$s->bindValue(':text', $persQuestion);
         $s->execute();
