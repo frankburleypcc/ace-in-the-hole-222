@@ -57,28 +57,12 @@
     <!--This is the sidebar. It will contain the social media feeds.--> 
     <aside id="sidebar">
         <h3>Social Media Feeds</h3>
- 
-        <a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!--this is the facebook feed-->
-       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline" data-width="323" data-height="250" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
+        <?php include '../includes/aside.inc.html.php'; ?>
         
     </aside>
     </section>
     
-    <!--<section class="col span_9_of_12">
-        <h2>What To Bring</h2>
-        <p>Watch the weather closely.  The show goes on no matter what the weather is doing. </p>
-
-        <p>You must wear your chip timing piece during the entire event.  You will be given a band that will hold your chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.</p>
-
-        <p>Swim:  Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries.  We will provide you with a swim cap but you will want to bring your own goggles.</p>
-
-        <p>Bike:  A biking helmet is mandatory.  You will also receive 2 stickers in your package with your race number on them.  The small sticker should go on the front of your helmet.  The bigger sticker will wrap around your bike frame.  Road or mountain bikes are acceptable.  For safety reasons, be sure to have end-caps on the end of your handle-bars.</p>
-
-        <p>Run:  You must finish the race with your bib number on the front of you.  Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it.  Others pin it on a singlet that they put on once they finish the swim before they head out for the bike.  Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run.  Use whatever option feels best for you.
-        </p>
-        <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
-    </section>-->
+    
     </div>
     
     <div class="section group">

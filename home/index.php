@@ -86,10 +86,12 @@
     <!--This is the sidebar. It will contain the social media feeds.--> 
     <aside id="sidebar">
         <h3>Social Media Feeds</h3>
+        
+        <?php include '../includes/aside.inc.html.php'; ?>
  
-        <a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!--this is the facebook feed-->
-       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline"  data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
+        <!--<a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        this is the facebook feed
+       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline"  data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>-->
         
     </aside>
     </section>
