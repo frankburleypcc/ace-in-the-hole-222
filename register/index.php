@@ -8,9 +8,12 @@
 if (isset($_POST['event'])) {
     $eventName = $_POST['event'];
     $eventSunName = $_POST['eventSun'];
+    $shirtSize = $_POST['shirtSize'];
     $persName = $_POST['myName'];
+    $persEmail = $_POST['myEmail'];
     $persNumber = $_POST['myNumber'];
-     $persAge = $_POST['age'];
+    $persAge = $_POST['age'];
+    $liability = $_POST['liabilityCheck'];
     //$persEmail = $_POST['myEmail'];
     //$persQuestion = $_POST['myQuestion'];
 
@@ -34,15 +37,21 @@ if (isset($_POST['event'])) {
         $sql = 'INSERT INTO register SET
         event = :event,
         eventSun = :eventSun,
+        shirtSize = :shirtSize,
         myNumber = :myNumber,
+        email = :email,
         age = :age,
-        name = :name';
+        name = :name,
+        liabilityCheck = :liabilityCheck';
         $s = $pdo->prepare($sql);
         $s->bindValue(':event', $eventName);
         $s->bindValue(':eventSun', $eventSunName);
+        $s->bindValue(':shirtSize', $shirtSize);
         $s->bindValue(':name', $persName);
+        $s->bindValue(':email', $persEmail);
         $s->bindValue(':myNumber', $persNumber);
         $s->bindValue(':age', $persAge);
+        $s->bindValue(':liabilityCheck', $liability);
         //$s->bindValue(':email', $persEmail);
         //$s->bindValue(':text', $persQuestion);
         $s->execute();

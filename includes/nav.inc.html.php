@@ -15,7 +15,7 @@
 <nav class="inlineNav">
     
            <ul>
-                <li><a href="/ace-in-the-hole-222/home/index.php">Home</a></li>
+                <li><a href="/ace-in-the-hole-222/home/">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="/ace-in-the-hole-222/register/">Register</a></li>

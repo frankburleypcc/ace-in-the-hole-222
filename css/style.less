@@ -18,10 +18,15 @@ header {
     background-color: @black;
     height: 55px;
     h1{
-        color: @white;
+        
+        
         padding: 12px;
         padding-top: 18px;
         font-family: @anton;
+        a {
+        text-decoration: none;
+        color: @white;
+        }
     }
     p {
         color: @white;
@@ -112,6 +117,12 @@ footer {
             margin-top: 19px;
             margin-right: 31px;
             padding-top: 5%;
+            a {
+                color: @red;
+                i {
+                  margin-top: -4px;
+                }
+            }
         }
     }
  
@@ -229,23 +240,30 @@ a{color:#336699;}*/
 
 /*style for image slider on homepage*/
 .container {
-    /*background-color: @black;*/
-    background-image: url(../images/runstart.jpg);
+    background-color: @black;
+    /*background-image: url(../images/runstart.jpg);*/
+   display: none;
     
 }
 #slider {
     width: 720px;
     height: 400px;
     overflow: hidden;
-        margin-left: 348px;
+        /*margin-left: 348px;*/
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    /*display: none;*/
 }
 
 #slider .slides {
-    display: block;
+    /*display: block;*/
+    /*display: none;*/
     width: 6000px;
     height: 400px;
     margin: 0;
     padding: 0;
+    
 }
 
 #slider .slide {
@@ -299,7 +317,7 @@ aside {
     display: block;
     float: right;
     p {
-        background-color: lightgrey;
+        /*background-color: lightgrey;*/
         margin-top: 5px;
     }
 
@@ -340,9 +358,30 @@ footer {
 
        }
     }
+    /*form dropdown menus*/
+    #position {
+            margin-left: 11px;
+            margin-top: 16px;
+    }
+    #shirtSize {
+            margin-top: 14px;
+            margin-left: 14px;
+    }
 
-}
+
+.container {
+    display: block;
     
+}
+#slider {
+    display: block;
+    .slides {
+        display: block;
+    }
+}
+}/*<--end of tablet media queries*/  
+
+
  /*DESKTOP STYLESHEET*/
 @media screen and (min-width: 1024px) {
     footer {
@@ -362,9 +401,19 @@ footer {
             padding-right: 22px;
             a:hover {
                color: @red;
+            }
         }
-        
     }
-}
+ }
+    footer {
+        ul {
+            li {
+                a {
+                    i {
+                      margin-top: -2px;
+                    }
+                }
+            }
+        }
     }
-}
+}/*<---end of desktop media queries*/
