@@ -13,12 +13,11 @@
 </nav>
 <!--tablet and desktop nav-->
 <nav class="inlineNav">
-    
-           <ul>
-                <li><a href="/ace-in-the-hole-222/home/">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="/ace-in-the-hole-222/register/">Register</a></li>
-                <li><a href="/ace-in-the-hole-222/contact/">Contact</a></li>
-           </ul>
-        </nav>
+    <ul>
+        <li><a href="/ace-in-the-hole-222/home/">Home</a></li>
+        <li><a href="/ace-in-the-hole-222/courses/">Courses</a></li>
+        <li><a href="/ace-in-the-hole-222/faq/">FAQ</a></li>
+        <li><a href="/ace-in-the-hole-222/register/">Register</a></li>
+        <li><a href="/ace-in-the-hole-222/contact/">Contact</a></li>
+    </ul>
+</nav>
