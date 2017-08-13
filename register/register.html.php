@@ -37,6 +37,7 @@
     <!--<img src="images/header%20box2.png">-->
     <div class="section group">
     <section class="col span_9_of_12">
+        <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
         <h2>Register</h2>
         <h3>Cost Includes</h3>
         <ul>

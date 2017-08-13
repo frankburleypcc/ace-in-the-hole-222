@@ -38,7 +38,7 @@
     
     <div class="section group">
     <section class="col span_9_of_12">
-        <p>To get the up-to-date course schedule, click this link.</p>
+        <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
         <h2>Contact Form</h2>
         
         <?php include '../includes/contact.inc.html.php'; ?>

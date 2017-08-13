@@ -39,23 +39,23 @@
     
     <div class="section group">
     <section class="col span_9_of_12">
-        <!--<p>To get the up-to-date course schedule, click this link.</p>-->
+        <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
         <h2>FAQ</h2>
-            <dl>
-              <dt>What are the Rules?</dt>
-              <dd>- We currently adhere to the USAT Rules for Triathlon &amp; Duathlon.  Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</dd>
-              <dt>Can I use a personal music device while cycling?</dt>
-              <dd>- Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</dd>
-              <dt>Can I use a personal music device while running?</dt>
-              <dd>- During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and assure athletes can hear all course marshal instructions. With that said, we also understand that many athletes rely on music to help endure the challenge of running. To accommodate the needs of our athletes while still assuring maximum safety and a fair, competitive environment, here is the arrangement that we can accommodate.</dd>
-              <dd>- If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choiceÖmusic or awards/points/rankings.</dd>
-              <dd>- If you are using a personal music devise with two earbuds, you will be immediately disqualified. Trust us, we donít want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</dd>
-              <dd>- We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</dd>
-              <dt>Do I need to wear a wetsuit?</dt>
-              <dd>- No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. </dd>
-              <dt>Do I have to use a road or racing bike?</dt>
-              <dd>- No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</dd>
-            </dl>
+           
+              <h3>1. What are the Rules?</h3>
+              <p>- We currently adhere to the USAT Rules for Triathlon &amp; Duathlon.  Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</p>
+              <h3>2. Can I use a personal music device while cycling?</h3>
+              <p>- Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</p>
+              <h3>3. Can I use a personal music device while running?</h3>
+              <p>- During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and assure athletes can hear all course marshal instructions. With that said, we also understand that many athletes rely on music to help endure the challenge of running. To accommodate the needs of our athletes while still assuring maximum safety and a fair, competitive environment, here is the arrangement that we can accommodate.</p>
+              <p>- If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choiceÖmusic or awards/points/rankings.</p>
+              <p>- If you are using a personal music devise with two earbuds, you will be immediately disqualified. Trust us, we donít want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</p>
+              <p>- We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</p>
+              <h3>4. Do I need to wear a wetsuit?</h3>
+              <p>- No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. </p>
+              <h3>5. Do I have to use a road or racing bike?</h3>
+              <p>- No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</p>
+           
        
         
        
@@ -63,14 +63,11 @@
     
     <section class="col span_3_of_12">
     <!--This is the sidebar. It will contain the social media feeds.--> 
-    <aside id="sidebar">
-        <h2>Social Media</h2>
+        <aside id="sidebar">
+            <h2>Social Media</h2>
         
-        <?php include '../includes/aside.inc.html.php'; ?>
-        
-        
-        
-    </aside>
+            <?php include '../includes/aside.inc.html.php'; ?>
+        </aside>
     </section>
     
     
