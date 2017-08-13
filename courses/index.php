@@ -39,12 +39,10 @@
     
     <div class="section group">
     <section class="col span_9_of_12">
-        <!--<p>To get the up-to-date course schedule, click this link.</p>-->
-        <h2>Courses</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
-            </p>
+       
+        
         <h2>Course Details</h2>
-        <p>WATER TEMPERATURE is expected to be between 62 ñ 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
+                <p>WATER TEMPERATURE is expected to be between 62 and 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
 
                 <h3>Long Course SWIM ñ 1.2mi</h3> <p>- Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
 
@@ -57,7 +55,7 @@
 
                 <h3>OLYMPIC BIKE ñ 28mi</h3>  <p>- A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections. </p>
 
-        <h3>OLYMPIC RUN ñ 10K </h3><p>- A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
+                <h3>OLYMPIC RUN ñ 10K </h3><p>- A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
 
                  <h3>Sprint:</h3> <p>Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run.</p>
 

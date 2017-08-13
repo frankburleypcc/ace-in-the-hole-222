@@ -39,16 +39,15 @@
     <section class="col span_9_of_12">
         <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
         <h2>Register</h2>
-        <h3>Cost Includes</h3>
-        <ul>
-          <li>Food & Beer</li>
-          <li>Access to the weekendís live entertainment & Fitness Expo</li>
-          <li>Food & Beer</li>
-          <li>Commemorative Finisher medal</li>
-          <li>Accurate Chip Timing for competitive races</li>
-          <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
-          <li>Post-event party & entertainment</li>
-        </ul> 
+           <h3>Cost Includes</h3>
+                <ul>
+                  <li>Food & Beer</li>
+                  <li>Access to the weekend's live entertainment & Fitness Expo</li>
+                  <li>Commemorative Finisher medal</li>
+                  <li>Accurate Chip Timing for competitive races</li>
+                  <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
+                  <li>Post-event party & entertainment</li>
+                </ul> 
         <p>NOTE: Tech shirts guaranteed to pre-registered participants only. 
 
         <h3>PACKET PICK UP</h3>

@@ -37,8 +37,6 @@
     <!--<img src="../images/header%20box2.png">-->
     
     <div class="container">
-            
-
             <div id="slider">
                 <ul class="slides">
                     <li class="slide slide1"><img src="../images/slider1.jpeg"></li>
@@ -55,24 +53,21 @@
             </div>
 
         </div>
-    
-    
-    
-    
-    
     <!--end of slideshow gallery-->
     <div class="section group">
     <section class="col span_9_of_12">
         <h2>About The Event</h2>
-        <p>The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation. There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
+        <p>The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
+        <p>There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
         </p>
-        <!--this is a test for the home page-->
+        
         <h2>What To Bring</h2>
+        
         <p>Watch the weather closely.  The show goes on no matter what the weather is doing. </p>
 
         <p>You must wear your chip timing piece during the entire event.  You will be given a band that will hold your chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.</p>
 
-        <p>Swim:  Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries.  We will provide you with a swim cap but you will want to bring your own goggles.</p>
+        <p>Swim: Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries.  We will provide you with a swim cap but you will want to bring your own goggles.</p>
 
         <p>Bike:  A biking helmet is mandatory.  You will also receive 2 stickers in your package with your race number on them.  The small sticker should go on the front of your helmet.  The bigger sticker will wrap around your bike frame.  Road or mountain bikes are acceptable.  For safety reasons, be sure to have end-caps on the end of your handle-bars.</p>
 
@@ -125,28 +120,45 @@
     </section>
     <section class="col span_9_of_12" id="faq">
         <h2>FAQ</h2>
-            <dl>
+        
+        <?php include '../includes/faq.inc.html.php'; ?>
+            <!--<dl>
               <dt>What are the Rules?</dt>
               <dd>- We currently adhere to the USAT Rules for Triathlon &amp; Duathlon.  Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</dd>
               <dt>Can I use a personal music device while cycling?</dt>
               <dd>- Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</dd>
               <dt>Can I use a personal music device while running?</dt>
               <dd>- During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and assure athletes can hear all course marshal instructions. With that said, we also understand that many athletes rely on music to help endure the challenge of running. To accommodate the needs of our athletes while still assuring maximum safety and a fair, competitive environment, here is the arrangement that we can accommodate.</dd>
-              <dd>- If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choiceÖmusic or awards/points/rankings.</dd>
-              <dd>- If you are using a personal music devise with two earbuds, you will be immediately disqualified. Trust us, we donít want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</dd>
+              <dd>- If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choice of music or awards/points/rankings.</dd>
+              <dd>- If you are using a personal music device with two earbuds, you will be immediately disqualified. Trust us, we don't want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</dd>
               <dd>- We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</dd>
               <dt>Do I need to wear a wetsuit?</dt>
               <dd>- No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. </dd>
               <dt>Do I have to use a road or racing bike?</dt>
               <dd>- No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</dd>
-            </dl>
+            </dl>-->
     </section>
     <section class="col span_9_of_12" id="registration">
         <h2>Registration</h2>
         <!-- this is the registration form-->
         <?php include '../includes/register.inc.html.php'; ?>
         
-            <p>Cost Includes
+        <h3>Cost Includes</h3>
+                <ul>
+                  <li>Food &amp; Beer</li>
+                  <li>Access to the weekend's live entertainment &amp; Fitness Expo</li>
+                  <li>Commemorative Finisher medal</li>
+                  <li>Accurate Chip Timing for competitive races</li>
+                  <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
+                  <li>Post-event party &amp; entertainment</li>
+                </ul> 
+        <p>NOTE: Tech shirts guaranteed to pre-registered participants only. 
+
+        <h3>PACKET PICK UP</h3>
+
+        <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+        
+           <!-- <p>Cost Includes
                 Food &amp; Beer 
                 Access to the weekendís live entertainment & Fitness Expo
                 Commemorative Finisher medal
@@ -159,7 +171,7 @@
                 PACKET PICK UP
 
                 All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up. 
-            </p>
+            </p>-->
     </section>
     <section class="col span_9_of_12" id="contact">
         <h2>Contact</h2>

@@ -284,6 +284,13 @@ a{color:#336699;}*/
   header button {
     display: none;
   }
+  header h1 {
+    padding-left: 36px;
+  }
+  section {
+    /* padding-left: 12px;
+        padding-right: 20px;*/
+  }
   section form {
     width: 42%;
     padding-bottom: 50px;
@@ -331,6 +338,7 @@ a{color:#336699;}*/
   }
   .inlineNav {
     display: block;
+    padding-right: 32px;
   }
   .inlineNav ul {
     display: inline-flex;
@@ -362,7 +370,7 @@ a{color:#336699;}*/
   }
 }
 /*<--end of tablet media queries*/
-/*DESKTOP STYLESHEET*/
+/*DESKTOP STYLESHEET----------------------------------------------------*/
 @media screen and (min-width: 1024px) {
   footer {
     height: 6.5em;
