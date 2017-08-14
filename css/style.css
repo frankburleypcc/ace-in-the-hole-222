@@ -50,11 +50,14 @@ section h2 {
   padding-bottom: 7px;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
 }
 section h3 {
   padding: 12px 0 12px 0;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.1em;
+  font-weight: 600;
 }
 section p {
   font-family: 'Roboto', Arial, sans-serif;

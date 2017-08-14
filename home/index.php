@@ -99,8 +99,9 @@
     <div class="section group">
     <section class="col span_9_of_12" id="courses">
         <h2>Courses</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
-            </p>
+        <blockquote>"Scroll down for Start Times"</blockquote>
+        <?php include '../includes/courses.inc.html.php'; ?>
+            
         <h2>Start Times</h2>
           <ul>
               <h3>Saturday</h3>
@@ -114,9 +115,7 @@
               <li>Splash n Dash 12:00 PM</li>
               
         </ul>
-        <h2>Course Details</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
-            </p>
+        
     </section>
     <section class="col span_9_of_12" id="faq">
         <h2>FAQ</h2>

@@ -42,9 +42,11 @@
        
         
         <h2>Course Details</h2>
-                <p>WATER TEMPERATURE is expected to be between 62 and 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
-
-                <h3>Long Course SWIM ñ 1.2mi</h3> <p>- Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+        
+        <?php include '../includes/courses.inc.html.php'; ?>
+              <!--  <p>WATER TEMPERATURE is expected to be between 62 and 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
+-->
+                <!--<h3>Long Course SWIM ñ 1.2mi</h3> <p>- Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
 
                 <h3>Long Course BIKE ñ 58 Miles:</h3>  <p>A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. </p>
 
@@ -63,7 +65,7 @@
 
                  <h3>Half Marathon COURSE:</h3><p> Half-Marathon (13.1-miles): Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified</p>
 
-                 <h3>10k COURSE:</h3> <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
+                 <h3>10k COURSE:</h3> <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>-->
         
        
     </section>
