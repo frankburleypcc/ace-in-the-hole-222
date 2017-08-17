@@ -51,7 +51,7 @@
         <section class="col span_5_of_12">
             <h2>Contact Info</h2>
             <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
-            <p>The contact form is for athlete and volunteer positions. Please indicate your position in the dropdown menu when contacting Ace in the Hole organizers.</p>
+            <p>The contact form is for contacting the organizers about the event. Please indicate your position in the dropdown menu when contacting Ace in the Hole organizers.</p>
     </section>
     
     <section class="col span_3_of_12">
