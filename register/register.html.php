@@ -36,9 +36,17 @@
     <!--this is a placeholder image for the slideshow gallery-->
     <!--<img src="images/header%20box2.png">-->
     <div class="section group">
-    <section class="col span_9_of_12">
+        
+    <section class="col span_4_of_12">
+       <!-- this is the registration form-->
+        <?php include '../includes/register.inc.html.php'; ?>
+        
+    </section>
+        
+    <section class="col span_5_of_12">
+        
+        <h2>Register Info</h2>
         <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
-        <h2>Register</h2>
            <h3>Cost Includes</h3>
                 <ul>
                   <li>Food & Beer</li>
@@ -53,9 +61,10 @@
         <h3>PACKET PICK UP</h3>
 
         <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
-       <!-- this is the registration form-->
-        <?php include '../includes/register.inc.html.php'; ?>
+        
     </section>
+        
+    
     
     <section class="col span_3_of_12">
     <!--This is the sidebar. It will contain the social media feeds.--> 

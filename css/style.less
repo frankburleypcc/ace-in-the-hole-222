@@ -3,7 +3,8 @@
 /*color palette*/
 @white: #ffffff;
 @black: #000000;
-@red:  rgb(255,0,0);
+/*@red:  rgb(255,0,0);*/
+@red: #b50000;
 
 /*font attributes*/
 @roboto: 'Roboto', Arial, sans-serif;
@@ -103,6 +104,7 @@ footer {
         padding: 2.4em;
         color: @white;
         float: left;
+        font-family: @oswald;
       }
     ul {
         li {
@@ -302,8 +304,15 @@ header {
     section { 
        /* padding-left: 12px;
         padding-right: 20px;*/
+        h2 {
+                margin-top: 13px;
+        }
         form{
-            width: 42%;
+            h2{
+                padding-bottom: 28px;
+                margin-top: -20px;
+            }
+            width: 98%;
             padding-bottom: 50px;
             #eventSun {
                     /*margin-left: -84px;*/
@@ -324,10 +333,10 @@ img {
 }
 aside {
     display: block;
-    float: right;
+   /* float: right;*/
     p {
         /*background-color: lightgrey;*/
-        margin-top: 5px;
+       /* margin-top: 5px;*/
     }
 
 } 

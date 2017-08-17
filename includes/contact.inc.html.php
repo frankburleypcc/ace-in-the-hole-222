@@ -1,4 +1,5 @@
 <form method="post" action=" " id="inquiryForm">
+    <h2>Contact Form</h2>
     <label for="event">*Event:</label>
         <select size="1" name="event" id="event">
           <option>Choose Your Event</option>

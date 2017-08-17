@@ -1,4 +1,5 @@
 <form method="post" action=" ">
+         <h2>Register Form</h2>
          <!--this is for the Saturday Events dropdown-->
         <label for="event">*Saturday Event:</label>
         <select size="1" name="event" id="event">
@@ -37,8 +38,9 @@
           <input type="tel" name="myNumber" id="myNumber">
         <label for="myAge">*Age</label>
           <input type="text" name="age" id="age" min="18" max="99" required>
+        <input type="checkbox" name="liabilityCheck" value="Checked"><p>Check this box if you have read the liability form.</p>
        
         <input id="mysubmit" type="submit" value="Submit">
          
-        <input type="checkbox" name="liabilityCheck" value="Checked"><p>Check this box if you have read the liability form.</p>
+        
     </form>

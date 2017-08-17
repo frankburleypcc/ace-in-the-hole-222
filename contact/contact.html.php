@@ -37,20 +37,19 @@
     <!--<img src="images/header%20box2.png">-->
     
     <div class="section group">
-    <section class="col span_9_of_12">
+     
+        <section class="col span_2_of_12">
+    </section>
+        
+    <section class="col span_5_of_12">
         <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
-        <h2>Contact Form</h2>
+       <!-- <h2>Contact Form</h2>-->
         
         <?php include '../includes/contact.inc.html.php'; ?>
-        <!--<form method="post" action=" " id="inquiryForm">
-        <label for="myName">Name:</label>
-          <input type="text" name="myName" id="myName">
-        <label for="myEmail">E-mail:</label>
-          <input type="text" name="myEmail" id="myEmail">
-        <label for="myQuestion">Question:</label>
-          <textarea form="inquiryForm" rows="10" cols="50" name="myQuestion" id="myQuestion"></textarea>
-        <input id="mySubmit" type="submit" value="Submit">
-      </form>-->
+      
+    </section>
+        
+        <section class="col span_2_of_12">
     </section>
     
     <section class="col span_3_of_12">
@@ -65,9 +64,9 @@
     
     </div>
     
-    <div class="section group">
-    <section class="col span_9_of_12" id="courses">
-        <h2>Courses</h2>
+   <!-- <div class="section group">
+    <section class="col span_9_of_12" id="courses">-->
+        <!--<h2>Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
             </p>
         <h3>Start Times</h3>
@@ -85,10 +84,10 @@
         </ul>
         <h3>Course Details</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
-            </p>
-    </section>
-    <section class="col span_9_of_12" id="faq">
-        <h2>FAQ</h2>
+            </p>-->
+   <!-- </section>
+    <section class="col span_9_of_12" id="faq">-->
+       <!-- <h2>FAQ</h2>
             <dl>
               <dt>What are the Rules?</dt>
               <dd>- We currently adhere to the USAT Rules for Triathlon &amp; Duathlon.  Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</dd>
@@ -103,10 +102,10 @@
               <dd>- No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. </dd>
               <dt>Do I have to use a road or racing bike?</dt>
               <dd>- No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</dd>
-            </dl>
-    </section>
-    <section class="col span_9_of_12" id="registration">
-        <h2>Registration</h2>
+            </dl>-->
+   <!-- </section>
+    <section class="col span_9_of_12" id="registration">-->
+       <!-- <h2>Registration</h2>
             <p>Cost Includes
 
     Food &amp; Beer 
@@ -121,13 +120,13 @@ NOTE: Tech shirts guaranteed to pre-registered participants only.
 PACKET PICK UP
 
 All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up. 
-            </p>
-    </section>
-    <section class="col span_9_of_12" id="contact">
-        <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </section>
-</div>
+            </p>-->
+   <!-- </section>
+    <section class="col span_9_of_12" id="contact">-->
+        <!--<h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+   <!-- </section>-->
+<!--</div>-->
 
     
        
