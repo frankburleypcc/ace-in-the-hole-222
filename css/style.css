@@ -72,6 +72,12 @@ section li {
   padding-left: 0px;
   margin-left: 32px;
 }
+section blockquote {
+  text-align: center;
+}
+section .courseLink {
+  display: none;
+}
 aside {
   display: none;
 }
@@ -115,7 +121,17 @@ form {
   background-color: lightgrey;
   font-family: Cinzel, Arial, serif;
   padding: 10px;
-  padding-top: 35px;
+  /* padding-top: 35px;*/
+  padding-top: 18px;
+}
+form h2 {
+  padding-bottom: 30px;
+}
+form #event {
+  padding-bottom: 31px;
+}
+form #eventSun {
+  padding-bottom: 31px;
 }
 input,
 textarea {
@@ -130,7 +146,7 @@ label {
   margin-bottom: 1em;
   padding-right: 10px;
   /*text-align: right; */
-  width: 150px;
+  width: 120px;
 }
 td {
   background-color: #ffffff;
@@ -291,6 +307,7 @@ a{color:#336699;}*/
   }
   header h1 {
     padding-left: 36px;
+    font-size: 1.2em;
   }
   section {
     /* padding-left: 12px;
@@ -305,7 +322,7 @@ a{color:#336699;}*/
   }
   section form h2 {
     padding-bottom: 28px;
-    margin-top: -20px;
+    margin-top: -3px;
   }
   section form #eventSun {
     /*margin-left: -84px;*/
@@ -316,12 +333,25 @@ a{color:#336699;}*/
     float: right;
     margin-right: 21px;
   }
+  section form #checkBox {
+    width: 19px;
+  }
+  section form p {
+    width: 90%;
+    padding-top: 0px;
+    margin-top: -39px;
+    margin-left: 33px;
+  }
+  section .courseLink {
+    display: block;
+  }
   img {
     display: block;
     width: 100%;
     margin: -7;
   }
   aside {
+    margin-left: -13px;
     display: block;
     /* float: right;*/
   }
@@ -384,6 +414,12 @@ a{color:#336699;}*/
 /*<--end of tablet media queries*/
 /*DESKTOP STYLESHEET----------------------------------------------------*/
 @media screen and (min-width: 1024px) {
+  form #event {
+    margin-right: 28px;
+  }
+  form #eventSun {
+    margin-right: 59px;
+  }
   footer {
     height: 6.5em;
     padding: 0.4em;

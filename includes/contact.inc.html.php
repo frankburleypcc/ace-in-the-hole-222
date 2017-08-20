@@ -1,4 +1,4 @@
-<form method="post" action=" " id="inquiryForm">
+<form method="post" action="../contact/ " id="inquiryForm">
     <h2>Contact Form</h2>
     <label for="event">*Event:</label>
         <select size="1" name="event" id="event">

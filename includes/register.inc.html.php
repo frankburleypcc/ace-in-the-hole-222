@@ -1,4 +1,4 @@
-<form method="post" action=" ">
+<form method="post" action="../register/index.php">
          <h2>Register Form</h2>
          <!--this is for the Saturday Events dropdown-->
         <label for="event">*Saturday Event:</label>
@@ -38,9 +38,13 @@
           <input type="tel" name="myNumber" id="myNumber">
         <label for="myAge">*Age</label>
           <input type="text" name="age" id="age" min="18" max="99" required>
-        <input type="checkbox" name="liabilityCheck" value="Checked"><p>Check this box if you have read the liability form.</p>
+        <div>
+       <!-- <label for="checkbox">Check this box if you have read liability form.</label>-->
+        <input type="checkbox" id="checkBox" name="liabilityCheck" value="Checked">
+        <p>&#10003; this box if you have read <a href="https://www.printablecontracts.com/Waiver_Of_Liability.php" target="_blank">liability form.</a></p>
+        </div>
        
-        <input id="mysubmit" type="submit" value="Submit">
+        <input id="mySubmit" type="submit" value="Submit">
          
         
     </form>

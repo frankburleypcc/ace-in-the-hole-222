@@ -87,6 +87,12 @@ section {
         margin-left: 32px;
         
     }
+    blockquote {
+        text-align: center;
+    }
+    .courseLink {
+        display: none;
+    }
     
 }
 aside {
@@ -141,7 +147,17 @@ form {
      background-color: lightgrey;
      font-family: Cinzel, Arial, serif; 
      padding: 10px; 
-     padding-top: 35px; 
+    /* padding-top: 35px;*/ 
+        padding-top: 18px;
+    h2 {
+            padding-bottom: 30px;
+    }
+    #event {
+            padding-bottom: 31px;
+    }
+    #eventSun {
+            padding-bottom: 31px;
+    }
 }
 input, textarea {
      display: block; 
@@ -156,7 +172,8 @@ label {
      margin-bottom: 1em; 
      padding-right: 10px; 
      /*text-align: right; */
-     width: 150px; 
+     width: 120px;
+    
 }
 td {
      background-color: #ffffff; 
@@ -299,6 +316,7 @@ header {
     }
     h1 {
         padding-left: 36px;
+        font-size: 1.2em;
     }
 }
     section { 
@@ -310,8 +328,10 @@ header {
         form{
             h2{
                 padding-bottom: 28px;
-                margin-top: -20px;
+                margin-top: -3px;
+                
             }
+            
             width: 98%;
             padding-bottom: 50px;
             #eventSun {
@@ -323,7 +343,19 @@ header {
                 float: right;
                 margin-right: 21px;
             }
+            #checkBox {
+                width: 19px;
+            }
+            p {
+                width: 90%;
+                padding-top: 0px;
+                margin-top: -39px;
+                margin-left: 33px;
+            }
         }
+        .courseLink {
+        display: block;
+    }
 } 
     
 img {
@@ -332,6 +364,7 @@ img {
     margin: -7;
 }
 aside {
+    margin-left: -13px;
     display: block;
    /* float: right;*/
     p {
@@ -403,6 +436,14 @@ footer {
 
  /*DESKTOP STYLESHEET----------------------------------------------------*/
 @media screen and (min-width: 1024px) {
+    form {
+        #event {
+                margin-right: 28px;
+        }
+        #eventSun {
+            margin-right: 59px;
+        }
+    }
     footer {
         height: 6.5em;
         padding: 0.4em;
