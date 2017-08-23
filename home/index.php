@@ -33,9 +33,6 @@
     <!--this is the nav for mobile, tablet, and desktop-->
     <?php include '../includes/nav.inc.html.php'; ?>
 <main>
-    <!--this is a placeholder image for the slideshow gallery-->
-    <!--<img src="../images/header%20box2.png">-->
-    
     <div class="container">
             <div id="slider">
                 <ul class="slides">
@@ -46,9 +43,6 @@
                     <li class="slide slide2"><img src="../images/slider5.jpg"></li>
                     <li class="slide slide3"><img src="../images/slider6.jpg"></li>
                     <li class="slide slide1"><img src="../images/slider1.jpeg"></li>
-                    <!--<li class="slide slide4">slide4</li>
-                    <li class="slide slide5">slide5</li>
-                    <li class="slide slide1">slide1</li>-->
                 </ul>
             </div>
 
@@ -77,7 +71,7 @@
         <p>Run:  You must finish the race with your bib number on the front of you.  Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it.  Others pin it on a singlet that they put on once they finish the swim before they head out for the bike.  Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run.  Use whatever option feels best for you.
         </p>
         <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
-        <!--end of test-->
+        
     </section>
     
     <section class="col span_3_of_12">
@@ -86,17 +80,10 @@
         <h3>Social Media Feeds</h3>
         
         <?php include '../includes/aside.inc.html.php'; ?>
- 
-        <!--<a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        this is the facebook feed
-       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline"  data-height="280" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>-->
-        
     </aside>
     </section>
     
-    <section class="col span_9_of_12">
-     
-    </section>
+    
     </div>
     
     <div class="section group">
@@ -124,21 +111,7 @@
         <h2>FAQ</h2>
         
         <?php include '../includes/faq.inc.html.php'; ?>
-            <!--<dl>
-              <dt>What are the Rules?</dt>
-              <dd>- We currently adhere to the USAT Rules for Triathlon &amp; Duathlon.  Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</dd>
-              <dt>Can I use a personal music device while cycling?</dt>
-              <dd>- Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</dd>
-              <dt>Can I use a personal music device while running?</dt>
-              <dd>- During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and assure athletes can hear all course marshal instructions. With that said, we also understand that many athletes rely on music to help endure the challenge of running. To accommodate the needs of our athletes while still assuring maximum safety and a fair, competitive environment, here is the arrangement that we can accommodate.</dd>
-              <dd>- If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choice of music or awards/points/rankings.</dd>
-              <dd>- If you are using a personal music device with two earbuds, you will be immediately disqualified. Trust us, we don't want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</dd>
-              <dd>- We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</dd>
-              <dt>Do I need to wear a wetsuit?</dt>
-              <dd>- No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. </dd>
-              <dt>Do I have to use a road or racing bike?</dt>
-              <dd>- No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</dd>
-            </dl>-->
+     
     </section>
     <section class="col span_9_of_12" id="registration">
         <h2>Registration</h2>
@@ -160,20 +133,7 @@
 
         <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
         
-           <!-- <p>Cost Includes
-                Food &amp; Beer 
-                Access to the weekendís live entertainment & Fitness Expo
-                Commemorative Finisher medal
-                Accurate Chip Timing for competitive races
-                Ace in the Hole MultiSport Weekend Tech Shirt
-                Post-event party &amp; entertainment
-
-                NOTE: Tech shirts guaranteed to pre-registered participants only. 
-
-                PACKET PICK UP
-
-                All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up. 
-            </p>-->
+           
     </section>
     <section class="col span_9_of_12" id="contact">
         <h2>Contact</h2>

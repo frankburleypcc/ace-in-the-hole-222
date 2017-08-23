@@ -33,71 +33,47 @@
     <!--this is the nav for mobile, tablet, and desktop-->
     <?php include '../includes/nav.inc.html.php'; ?>
 <main>
-    <!--this is a placeholder image for the slideshow gallery-->
-    <!--<img src="images/header%20box2.png">-->
+    
     <div class="section group">
-        
-    <section class="col span_4_of_12">
-       <!-- this is the registration form-->
-        <?php include '../includes/register.inc.html.php'; ?>
-        
-    </section>
-        
-    <section class="col span_5_of_12">
-        
-        <h2>Register Info</h2>
-        <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
-           <h3>Cost Includes</h3>
-                <ul>
-                  <li>Food & Beer</li>
-                  <li>Access to the weekend's live entertainment & Fitness Expo</li>
-                  <li>Commemorative Finisher medal</li>
-                  <li>Accurate Chip Timing for competitive races</li>
-                  <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
-                  <li>Post-event party & entertainment</li>
-                </ul> 
-        <p>NOTE: Tech shirts guaranteed to pre-registered participants only. 
+        <!--left column-->
+        <section class="col span_4_of_12">
+           <!-- this is the registration form-->
+            <?php include '../includes/register.inc.html.php'; ?>
+        </section>
+       <!-- center column-->
+        <section class="col span_5_of_12">
 
-        <h3>PACKET PICK UP</h3>
+            <h2>Register Info</h2>
+            <p>To get the up-to-date course schedule, click this <a href="../courses/">link</a>.</p>
+               <h3>Cost Includes</h3>
+                    <ul>
+                      <li>Food &amp; Beer</li>
+                      <li>Access to the weekend's live entertainment &amp; Fitness Expo</li>
+                      <li>Commemorative Finisher medal</li>
+                      <li>Accurate Chip Timing for competitive races</li>
+                      <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
+                      <li>Post-event party &amp; entertainment</li>
+                    </ul> 
+            <p>NOTE: Tech shirts guaranteed to pre-registered participants only. 
 
-        <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
-        
-    </section>
+            <h3>PACKET PICK UP</h3>
+
+            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+       </section>
         
     
     
-    <section class="col span_3_of_12">
-    <!--This is the sidebar. It will contain the social media feeds.--> 
-    <aside id="sidebar">
-        <h3>Social Media Feeds</h3>
-        <?php include '../includes/aside.inc.html.php'; ?>
- 
-       <!-- <a class="twitter-timeline" data-height="250" href="https://twitter.com/pcccas222">Tweets by @pcccas222</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        this is the facebook feed
-       <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline" data-width="323" data-height="250" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>-->
-        
-        
-        
-    </aside>
-    </section>
-    
-    <!--<section class="col span_9_of_12">
-        <h2>What To Bring</h2>
-        <p>Watch the weather closely.  The show goes on no matter what the weather is doing. </p>
+        <section class="col span_3_of_12">
+        <!--This is the sidebar. It will contain the social media feeds.--> 
+        <aside id="sidebar">
+            <h3>Social Media Feeds</h3>
+            <?php include '../includes/aside.inc.html.php'; ?>
 
-        <p>You must wear your chip timing piece during the entire event.  You will be given a band that will hold your chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.</p>
-
-        <p>Swim:  Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries.  We will provide you with a swim cap but you will want to bring your own goggles.</p>
-
-        <p>Bike:  A biking helmet is mandatory.  You will also receive 2 stickers in your package with your race number on them.  The small sticker should go on the front of your helmet.  The bigger sticker will wrap around your bike frame.  Road or mountain bikes are acceptable.  For safety reasons, be sure to have end-caps on the end of your handle-bars.</p>
-
-        <p>Run:  You must finish the race with your bib number on the front of you.  Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it.  Others pin it on a singlet that they put on once they finish the swim before they head out for the bike.  Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run.  Use whatever option feels best for you.
-        </p>
-        <p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
-    </section>-->
+        </aside>
+        </section>
     </div>
     
-    <div class="section group">
+    <!--<div class="section group">
     <section class="col span_9_of_12" id="courses">
         <h2>Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum pulvinar dignissim. Donec nec elit ex. Nullam maximus efficitur dignissim. Quisque fermentum laoreet mauris sed hendrerit. In nec dolor condimentum, condimentum tellus id, varius libero. In malesuada aliquet viverra. Vestibulum nulla metus, luctus a posuere id, convallis rhoncus lacus.
@@ -159,7 +135,7 @@ All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. 
         <h2>Contact</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
-</div>
+</div>-->
 
     
        

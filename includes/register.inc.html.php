@@ -37,7 +37,7 @@
         <label for="myNumber">*Phone:</label>
           <input type="tel" name="myNumber" id="myNumber">
         <label for="myAge">*Age</label>
-          <input type="text" name="age" id="age" min="18" max="99" required>
+          <input type="text" name="age" id="age" min="18" max="99">
         <div>
        <!-- <label for="checkbox">Check this box if you have read liability form.</label>-->
         <input type="checkbox" id="checkBox" name="liabilityCheck" value="Checked">
